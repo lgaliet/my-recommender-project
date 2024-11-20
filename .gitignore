@@ -1,0 +1,33 @@
+# Frontend (movie-app)
+# Dependencies in the frontend (inside movie-app)
+frontend/movie-app/node_modules
+frontend/movie-app/.pnp
+frontend/movie-app.pnp.js
+
+# Testing
+frontend/movie-app/coverage
+
+# Production build
+frontend/movie-app/build
+
+# Miscellaneous (specific to frontend)
+frontend/movie-app/.DS_Store
+frontend/movie-app.env.local
+frontend/movie-app.env.development.local
+frontend/movie-app.env.test.local
+frontend/movie-app.env.production.local
+frontend/movie-app/npm-debug.log*
+frontend/movie-app/yarn-debug.log*
+frontend/movie-app/yarn-error.log*
+
+# Backend
+# Python-specific files in backend
+backend/venv/
+backend/__pycache__/
+backend/instance/
+backend/.ipynb_checkpoints/
+backend/*.log
+backend/*.pyc
+
+# Miscellaneous (specific to backend)
+backend/.DS_Store

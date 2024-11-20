@@ -1,0 +1,60 @@
+/* App.css */
+body {
+  background: #141414;
+  color: #ffffff;
+}
+
+.movie-app > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+.movie-app img {
+  width: 150px;
+  height: 222px;
+}
+
+/* Custom scrollbar styles */
+.movie-app > .row::-webkit-scrollbar {
+  height: 7px;
+}
+
+.movie-app > .row::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+
+.image-container{
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* App.css */
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 150px;
+  height: 40px;
+  bottom: 0;   
+  opacity: 0;
+  transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+
+
